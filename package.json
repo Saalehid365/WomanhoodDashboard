@@ -1,0 +1,22 @@
+{
+  "name": "womanhooddashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saalehid365/WomanhoodDashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saalehid365/WomanhoodDashboard/issues"
+  },
+  "homepage": "https://github.com/Saalehid365/WomanhoodDashboard#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
