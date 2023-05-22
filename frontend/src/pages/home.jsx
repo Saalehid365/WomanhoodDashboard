@@ -1,9 +1,10 @@
 import React from "react";
+import Mainhero from "../components/mainhero";
 
 const Home = () => {
   return (
-    <div className="h-24 bg-black text-3xl">
-      <p>dwedbgfd</p>
+    <div className="text-8xl h-screen">
+      <Mainhero />
     </div>
   );
 };

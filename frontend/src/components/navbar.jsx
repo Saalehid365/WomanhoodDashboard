@@ -4,13 +4,13 @@ import {
   FaClipboardList,
   FaDropbox,
   FaHome,
+  FaRegCalendarAlt,
   FaSearchDollar,
-  FaUser,
 } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="bg-gray-700 bottom-7 fixed w-4/5 h-16 rounded-md right-10 flex justify-between items-center text-3xl px-4 text-gray-400">
+    <div className="bg-gray-600 bottom-7 fixed w-4/5 h-16 rounded-xl right-10 flex justify-between items-center text-3xl px-4 text-gray-400">
       <Link className="">
         <FaHome />
       </Link>
@@ -24,7 +24,7 @@ const Navbar = () => {
         <FaClipboardList />
       </Link>
       <Link className="">
-        <FaUser />
+        <FaRegCalendarAlt />
       </Link>
     </div>
   );
